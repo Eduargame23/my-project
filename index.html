@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Campaña Comederos para Perros de la Calle</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+        }
+
+        header {
+            background-color: #343a40;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .hero {
+            background-image: url('images/hero-background.jpg');
+            background-size: cover;
+            background-position: center;
+            color: #fff;
+            text-align: center;
+            padding: 100px 20px;
+        }
+
+        .hero h1 {
+            font-size: 3em;
+            margin: 0;
+            color: #f39c12;
+        }
+
+        .hero p {
+            font-size: 1.5em;
+        }
+
+        section {
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        section h2 {
+            font-size: 2em;
+            margin-bottom: 20px;
+            color: #2980b9;
+        }
+
+        section p {
+            font-size: 1.2em;
+            color: #555;
+        }
+
+        .gallery-container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .gallery-container img {
+            width: 30%;
+            border-radius: 10px;
+            margin: 10px;
+        }
+
+        footer {
+            background-color: #343a40;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .donate-btn {
+            background-color: #28a745;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+            font-size: 1.2em;
+        }
+
+        .donate-btn:hover {
+            background-color: #218838;
+        }
+
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .contact-form input,
+        .contact-form textarea {
+            width: 80%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .contact-form button {
+            background-color: #007bff;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1em;
+        }
+
+        .contact-form button:hover {
+            background-color: #0056b3;
+        }
+
+        .external-links {
+            margin-top: 20px;
+        }
+
+        .external-links a {
+            color: #2980b9;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .external-links a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Inicio</a></li>
+                <li><a href="#about">Sobre Nosotros</a></li>
+                <li><a href="#mission">Nuestra Misión</a></li>
+                <li><a href="#gallery">Galería</a></li>
+                <li><a href="#donate">Donaciones</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <h1>Ayuda a los Perros de la Calle</h1>
+        <p>Únete a nuestra campaña para instalar comederos en la ciudad.</p>
+        <video width="600" controls>
+            <source src="video/campana.mp4" type="video/mp4">
+            Tu navegador no soporta videos.
+        </video>
+    </section>
+
+    <section id="about">
+        <h2>Sobre Nosotros</h2>
+        <p>Somos una organización sin fines de lucro dedicada a mejorar la vida de los perros sin hogar. Nuestra misión es proporcionar alimentos y agua a estos animales necesitados a través de la instalación de comederos y bebederos en áreas urbanas.</p>
+        <p>Nuestra organización fue fundada en 2020 con el objetivo de combatir el hambre y la sed en perros callejeros. Desde entonces, hemos crecido gracias al apoyo de voluntarios y donantes, y hemos instalado más de 100 comederos en distintas ciudades.</p>
+        <div class="external-links">
+            <h3>Enlaces de Interés</h3>
+            <p>Para más información sobre la problemática de los perros callejeros, puedes visitar los siguientes enlaces:</p>
+            <p><a href="https://www.who.int/news-room/fact-sheets/detail/rabies" target="_blank">Organización Mundial de la Salud - Rabia y Perros Callejeros</a></p>
+            <p><a href="https://www.hsi.org/issues/street-dog/" target="_blank">Humane Society International - Perros Callejeros</a></p>
+        </div>
+    </section>
+
+    <section id="mission">
+        <h2>Nuestra Misión</h2>
+        <p>Nuestra misión es garantizar que ningún perro de la calle pase hambre o sed. Trabajamos incansablemente para proporcionar recursos esenciales y crear conciencia sobre la situación de los perros sin hogar.</p>
+        <p>Además, colaboramos con refugios locales, clínicas veterinarias y voluntarios para asegurar que los perros tengan acceso a atención médica básica, vacunaciones y esterilizaciones.</p>
+    </section>
+
+    <section id="gallery">
+        <h2>Galería</h2>
+        <div class="gallery-container">
+            <img src="images/feeding1.jpg" alt="Perro comiendo en comedero">
+            <img src="images/feeding2.jpg" alt="Comedero lleno de comida">
+            <img src="images/feeding3.jpg" alt="Voluntarios instalando comedero">
+        </div>
+    </section>
+
+    <section id="donate">
+        <h2>Donaciones</h2>
+        <p>Tu contribución puede hacer una gran diferencia. Ayúdanos a mantener los comederos abastecidos y a proporcionar cuidados médicos a los perros que lo necesitan.</p>
+        <p>Con tu donación, podemos:</p>
+        <ul>
+            <li>Comprar alimentos de alta calidad para los perros.</li>
+            <li>Instalar y mantener más comederos y bebederos en áreas necesitadas.</li>
+            <li>Proporcionar atención veterinaria a perros enfermos y heridos.</li>
+            <li>Llevar a cabo campañas de concienciación sobre el bienestar animal.</li>
+        </ul>
+        <a href="https://www.paypal.com/donate" class="donate-btn" target="_blank">Donar Ahora</a>
+    </section>
+
+    <section id="contact">
+        <h2>Contacto</h2>
+        <p>Si deseas colaborar o tienes alguna pregunta, contáctanos a través del siguiente formulario o envíanos un correo a <a href="mailto:info@comedoresparaperros.org">info@comedoresparaperros.org</a></p>
+        <form class="contact-form">
+            <input type="text" name="name" placeholder="Nombre" required>
+            <input type="email" name="email" placeholder="Correo Electrónico" required>
+            <textarea name="message" rows="5" placeholder="Mensaje" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Comederos para Perros de la Calle. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
